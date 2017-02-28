@@ -1,7 +1,7 @@
 CREATE TABLE books(
 	id SERIAL PRIMARY KEY,
 	title VARCHAR (1000) NOT NULL,
-	author VARCHAR (100) NOT NULL
+	author VARCHAR (100) NOT NULL,
 );
 
 INSERT INTO books (title, author) VALUES ('Rogue Lawyer', 'John Grisham');
